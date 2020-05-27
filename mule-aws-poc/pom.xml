@@ -26,6 +26,17 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<cloudHubDeployment>
+				      <uri>https://anypoint.mulesoft.com/</uri>
+				      <muleVersion>4.2.2</muleVersion>
+				      <username>VamsiPallapothu</username>
+				      <password>Miracle@2020</password>
+				      <applicationName>mule-aws-poc-app</applicationName>
+				      <environment>Sandbox</environment>
+				      <objectStoreV2>true</objectStoreV2>
+				      <workers>1</workers>
+				      <workerType>Micro</workerType>
+				  	</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
