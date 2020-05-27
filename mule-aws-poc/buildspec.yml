@@ -3,7 +3,8 @@ phases:
   pre_build:
     commands:
       - echo Mule build-deployment phase initiated...
-      - mvn test "-Dfile=mule-aws-poc/pom.xml"
+      - cd mule-aws-poc
+      - mvn test
   build:
     commands:
       - echo Build started on 'date'
