@@ -3,7 +3,7 @@ phases:
   pre_build:
     commands:
       - echo Mule build-deployment phase initiated...
-      - mvn test
+      - mvn test "-Dfile=mule-aws-poc/pom.xml"
   build:
     commands:
       - echo Build started on 'date'
@@ -11,4 +11,4 @@ phases:
   post_build:
     commands:
       - echo Build completed on 'date'
-      - mvn deploy -DmuleDeploy -Dcloud.env=Sandbox -Danypoint.businessGroup=Miracle Software Systems -Dcloudhub.workerType=Micro -DcloudhubAppName=mule-aws-poc-app -Dmule.version=4.2.2 -Dcloud.user=VamsiPallapothu -Dcloud.password=Miracle@2020
+      - mvn deploy -DmuleDeploy
