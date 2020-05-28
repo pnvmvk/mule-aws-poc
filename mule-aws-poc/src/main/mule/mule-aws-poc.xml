@@ -18,5 +18,6 @@ output application/json
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Log End" doc:id="a6ef11b1-e708-472c-af30-bd5b5025ca64" message="#['Flow Ended with response as :: '++ payload.response]"/>
 	</flow>
 </mule>
