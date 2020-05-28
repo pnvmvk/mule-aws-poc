@@ -26,7 +26,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<!--<cloudHubDeployment>
+					<cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com/</uri>
 				      <muleVersion>4.2.2</muleVersion>
 				      <username>VamsiPallapothu</username>
@@ -36,7 +36,7 @@
 				      <objectStoreV2>true</objectStoreV2>
 				      <workers>1</workers>
 				      <workerType>Micro</workerType>
-				  	</cloudHubDeployment>-->
+				  	</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>

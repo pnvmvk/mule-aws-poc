@@ -13,4 +13,4 @@ phases:
   post_build:
     commands:
       - echo Build completed on 'date'
-      - mvn deploy -DmuleDeploy -Dcloud.env=Sandbox -Dcloudhub.workerType=Micro -DcloudhubAppName=mule-aws-poc-app -Dmule.version=4.2.2 -Dcloud.user=VamsiPallapothu -Dcloud.password=Miracle@2020
+      - mvn deploy -DmuleDeploy
